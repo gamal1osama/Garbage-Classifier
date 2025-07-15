@@ -19,12 +19,16 @@ def load_model():
 
 # Define garbage class labels (adjust these based on your model's classes)
 CLASS_LABELS = [
-    'Cardboard',
-    'Glass',
-    'Metal',
-    'Paper',
-    'Plastic',
-    'Organic'
+    'battery',
+    'biological',
+    'cardboard',
+    'clothes',
+    'glass',
+    'metal',
+    'paper',
+    'plastic',
+    'shoes',
+    'trash'
 ]
 
 def preprocess_image(image):
