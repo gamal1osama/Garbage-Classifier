@@ -5,7 +5,7 @@ from PIL import Image
 import os
 
 # Load the pre-trained model
-MODEL_PATH = "./Resnet_101v2/finetuned_garbage_classifier_model_ResNet101V2.keras"
+MODEL_PATH = "../Resnet_101v2/finetuned_garbage_classifier_model_ResNet101V2.keras"
 
 def load_model():
     """Load the garbage classification model with enhanced error handling"""
